@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: VM6 selected extends trusted baseline
+    conditions:
+      - title = VM6_EXTENDS_SELECTED_BASELINE
+    actions:
+      comment:
+        message: VM6_SELECTED_TRUSTED_SOURCE
